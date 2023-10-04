@@ -1,0 +1,215 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+body{
+  height: 100vh;
+  background-image: url(./tree-838667_1280.jpg);
+  background-size: cover;
+}
+.dflex{
+  display: flex;
+  align-items: center;
+}
+.logo{
+  color: rgb(0, 253, 0);
+  font-size: 30px;
+}
+.navbar{
+  padding: 25px 150px;
+  width: 100%;
+  height: 100px;
+}
+.menu{
+    width: 100%;
+}
+.menu a{
+  text-decoration: none;
+  color: white;
+  font-weight: 600;
+  transition: all .2s linear;
+}
+.menu a:hover{
+  color: rgb(0, 253, 0);
+}
+.menu ul{
+  list-style: none;
+   justify-content: space-evenly;
+}
+
+.search{
+  border: 1px solid rgb(0, 253, 0);
+  height: 35px;
+  border-radius: 5px;
+  width: 450px;
+  justify-content: space-between;
+}
+.srch{
+  border: none;
+  outline: none;
+  background: transparent;
+  padding: 10px;
+}
+.srch::placeholder{
+  color: white;
+  font-weight: 500;
+  font-size: 16px;
+}
+.search a{
+  height: 100%;
+  overflow: hidden;
+  width: 70px;
+  
+}
+.btn{
+  cursor: pointer;
+  background-color: rgb(0, 253, 0);
+  height: 35px;
+  width: 100%;
+  border: none;
+  outline: none;
+  color: rgb(255, 255, 78);
+  font-size: 14px;
+  text-align: center;
+  font-weight: 600;
+}
+.content{
+  padding: 50px 150px;
+  justify-content: space-between;
+}
+.about h1{
+  color: rgb(0, 253, 0);
+  font-size: 45px;
+  letter-spacing: 2px;
+  line-height: 50px;
+}
+.about span{
+  color: white;
+}
+.par{
+  color: white;
+  line-height: 25px;
+  margin: 10px 0;
+}
+.cn{
+  cursor: pointer;
+  background-color: rgb(0, 253, 0);
+  height: 35px;
+  width: 150px;
+  border: none;
+  border-radius: 8px;
+  outline: none;
+  font-size: 14px;
+  text-align: center;
+  font-weight: 600;
+  margin-top: 10px;
+  transition: all .2s linear;
+}
+.cn:hover{
+  background-color: transparent;
+  border: 2px solid rgb(0, 253, 0);
+}
+.cn a{
+  text-decoration: none;
+  color: green;
+}
+.cn a:hover{
+  color: rgb(0, 253, 0);
+}
+
+.form{
+  background-color: black;
+  height: 400px;
+  width: 300px;
+  padding: 15px 20px;
+  display: flex;
+  border-radius: 10px;
+  flex-direction: column;
+}
+.login{
+  margin: 10px;
+  cursor: pointer;
+  background-color: white;
+  height: 35px;
+  width: 250px;
+  border: none;
+  border-radius: 8px;
+  outline: none;
+  font-size: 20px;
+  text-align: center;
+  font-weight: 600;
+  color: rgb(137, 244, 137);
+  transition: all .4s linear;
+}
+.login:hover{
+  background-color: transparent;
+  border: 2px solid white;
+}
+.form input{
+  border: none;
+  outline: none;
+  background: transparent;
+  border-bottom: 1px solid rgb(0, 253, 0);
+  /* height: 50px; */
+  padding: 8px 0;
+  margin: 15px 0;
+}
+.form input::placeholder{
+  color: white;
+  font-size: 15px;
+}
+.btnn{
+  margin: 10px;
+  cursor: pointer;
+  background-color: rgb(0, 253, 0);
+  height: 35px;
+  width: 250px;
+  border: none;
+  border-radius: 8px;
+  outline: none;
+  font-size: 20px;
+  text-align: center;
+  font-weight: 600;
+  transition: all .2s linear;
+}
+.btnn:hover{
+  background-color: transparent;
+  border: 2px solid rgb(0, 253, 0);
+}
+.btnn a{
+  text-decoration: none;
+  color: green;
+}
+.btnn a:hover{
+  color: rgb(0, 253, 0);
+}
+.link{
+  color: white;
+  text-align: center;
+  font-size: 17px;
+  font-weight: 500;
+}
+.link a{
+  color: rgb(0, 253, 0);
+  text-decoration: none;
+  text-align: center;
+  font-size: 17px;
+  font-weight: 500;
+}
+.liw{
+  color: white;
+  text-align: center;
+  font-size: 17px;
+  font-weight: 500;
+  margin: 15px;
+}
+.icons{
+  justify-content: space-evenly;
+}
+.icons a{
+  font-size: 35px;
+  text-decoration: none;
+  color: white;
+}
